@@ -1,26 +1,49 @@
 ![OGI](Docs/Images/ONF_TMP.png)
 
-# Hacking RTL960x
-
-## ⚠️ WARNING: SERIOUS RISKS WITH CUSTOM GPON SFP ONTs
-When using custom **GPON SFP ONTs** (Small Form-factor Pluggable Optical Network Terminals), it’s important to be aware of potential risks and how they can affect not only your connection but also others on the same network.
-
-Using custom GPON SFP ONTs can cause severe network issues, not just for you but for everyone on the same GPON port. A single faulty or misconfigured ONT can take down an entire GPON network, affecting dozens of users.
-
-### 🚨 Major Risks
-* **Network-wide Disruptions**<br><sup>A rogue ONT can cause signal collisions, disconnecting all users on the same fiber split.</sup>
-* **ISP Blacklisting & Fines**<br><sup>ISPs may ban your service or impose penalties for unauthorized modifications.</sup>
-* **Unstable Connection**<br><sup>Custom ONTs may fail to connect properly or frequently drop connections.</sup>
-
-### ⚠ **DANGER**
-**A faulty SFP can take down an entire GPON network!**
-
-# xPON SFP ONU
 <a href="https://github.com/Anime4000/RTL960x/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Anime4000/RTL960x" />
 </a>
 
-Join us in enhancing this RTL960x documentation repository to support the xPON community. Every piece of information, no matter how small, can make a significant impact on others. Got spare knowledge about ONU Box functionalities? Share it by dumping the [information here](Docs/Stock_ONU.md)! Together, let's make xPON more accessible and straightforward!
+# Open Networking Initiative for xPON
+
+This repository aims to document and demystify the RTL960x platform for the global xPON community.
+
+Every contribution no matter how small helps expand access and understanding.
+
+Have technical insights or undocumented behavior?  
+Contribute here → [Docs/Stock_ONU.md](Docs/Stock_ONU.md)
+
+# ⚠️ SAFETY NOTICE
+
+Custom **GPON SFP ONTs** operate outside standard ISP-controlled environments and must be handled with extreme caution.
+
+Improper configuration or non-compliant behavior can destabilize the optical network. A single faulty ONU may trigger a **PON-wide disruption**, impacting multiple subscribers on the same fiber split. Network operators actively monitor such anomalies and may enforce **service suspension, account bans, or financial penalties**.
+
+## 🚨 Operational Risks
+* **PON Blackout Events**  
+  <sup>Misbehaving ONTs can disrupt upstream synchronization, affecting all users on the same GPON segment.</sup>
+
+* **ISP Enforcement Actions**  
+  <sup>Unauthorized devices or configurations may result in immediate disconnection, blacklisting, or penalties.</sup>
+
+* **Unpredictable Stability**  
+  <sup>Custom firmware and configurations may lead to intermittent connectivity or complete service failure.</sup>
+
+## ⚠️ RESPONSIBILITY & SUPPORT
+
+This project promotes **open knowledge and interoperability**, not reckless deployment.
+
+All experimentation is performed **at your own risk**.  
+Contributors may provide guidance when available, but support is **voluntary, limited, and not guaranteed**.
+
+Do not endanger shared infrastructure.  
+Do not disrupt others.  
+Proceed with discipline.
+
+## 🔴 PRINCIPLE
+### OPEN NETWORKING REQUIRES RESPONSIBILITY!
+
+# Hacking RTL960x
 ## RTL9601x Device's
 | Stick | SoC | NAND | Mode | 4-port `EthUni` | 2.5Gb | EoL |
 |-------|-----|------|------|-----------------|-------|-----|
