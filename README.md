@@ -104,7 +104,7 @@ Proceed with discipline.
 4. Health Reporting
     * [Telegram](https://github.com/Anime4000/RTL960x/issues/99#issuecomment-1611726668) <sup>Mikrotik script by [@smnrock](https://github.com/smnrock), sending health report via Telegram Bot</sup>
     * [Telegram via #!/bin/bash](https://github.com/Anime4000/RTL960x/discussions/277) <sup>Linux Bash script by [@chiragkrishna](https://github.com/chiragkrishna), sending health report via Telegram Bot</sup>
-    * [Grafana](https://github.com/Anime4000/RTL960x/issues/99#issuecomment-1911530327) <sup>Grafana script by [@Strykar](https://github.com/Strykar), display PON Stats neatly! [Project Repo](https://github.com/Strykar/GPON)</sup>
+    * [Grafana](https://github.com/Strykar/GPON) dashboard and Prometheus collector for DDM-grade PON telemetry by [@Strykar](https://github.com/Strykar).
 6. [Diagnostic](Docs/DIAG.md)
     * [Factory Reset](Docs/factory_reset.md)
     * [Switch/Roll back Firmware](Docs/fw_part.md)
